@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Wiatrak : MonoBehaviour {
 
-	[SerializeField]int jednorazowyObrot = 1;
-	[SerializeField]float czasMiedzyObrotami = 0.3f;
+	[SerializeField]int jednorazowyObrot = 10;
+	[SerializeField]float czasMiedzyObrotami = 0.05f;
 	float czasOstatniegoObrotu = 0.0f;
 	Transform glowica = null;
 
