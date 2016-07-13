@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Gracz : MonoBehaviour {
 
+	//Michal
+
 	// definicje zmiennych
 	// domyślnie prywatne
 	[SerializeField] float predkosc = 1.0f;
