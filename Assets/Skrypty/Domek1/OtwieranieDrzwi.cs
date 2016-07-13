@@ -20,6 +20,7 @@ public class OtwieranieDrzwi : MonoBehaviour {
 			Debug.Log ("pukamy i otwieramy");
 		} else {
 			transform.FindChild ("BrylaDrzwi").RotateAround (transform.FindChild ("Zawiasy").position, Vector3.up, -90);
+			GetComponent<AudioSource> ().Play();
 			drzwiOtwarte = true;
 			Debug.Log ("zamykamy");
 		}
