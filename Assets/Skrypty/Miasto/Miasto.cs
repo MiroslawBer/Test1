@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Miasto : MonoBehaviour {
 
+	[SerializeField] string nazwaMiasta = "";
 
 	// Use this for initialization
 	void Awake () {
@@ -14,5 +15,9 @@ public class Miasto : MonoBehaviour {
 	
 	}
 
+	// Property
+	public string NazwaMiasta {
+		get { return nazwaMiasta; }
+	}
 
 }
