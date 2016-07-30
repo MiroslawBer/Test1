@@ -18,6 +18,14 @@ public class ColliderGraczaMaRuch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
+
+
+
+
+
+
 		if (Input.GetMouseButtonDown(1) && czyZaznaczony == true) {
 		//if (Input.GetMouseButtonDown(1)) {
 		//	transform.parent.position = new Vector3 (Came  Camera .main.ScreenToWorldPoint (Input.mousePosition));
@@ -56,7 +64,7 @@ public class ColliderGraczaMaRuch : MonoBehaviour {
 
 		//transform.parent.Translate (new Vector3 (skokGracza, 0, 0));
 		//transform.parent.position = miasto1.transform.position + new Vector3 (skokGracza, 10f, 0f);
-		if (czyZaznaczony == false) {
+		/*if (czyZaznaczony == false) {
 			Debug.Log ("Zaznaczony");
 			GetComponent<MeshRenderer> ().material = materialZaznaczony;
 			czyZaznaczony = true;
@@ -64,8 +72,7 @@ public class ColliderGraczaMaRuch : MonoBehaviour {
 			Debug.Log ("Niezaznaczony");
 			GetComponent<MeshRenderer> ().material = materialNieZaznaczony;
 			czyZaznaczony = false;
-		}
-
+		}*/
 
 
 	}
